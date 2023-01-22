@@ -2,12 +2,14 @@
 
 /* Structure */
 
+/* Structure body*/
 body 
 { 
    margin: 10px;
    padding: 0px;   
 }
 
+/* Structure balise entete*/
 div#entete
 { 
    height: auto;
@@ -35,6 +37,8 @@ div#entete h3
    color: gray;
 }
 
+
+/* Structure balise titre*/
 div#titre
 { 
    height: 52px;
@@ -48,6 +52,7 @@ div#titre img.logo_titre
    padding: 0px 0px 0px 0px;   
 }
 
+/* Structure balise menu*/
 div#menu
 { 
    float: left;
@@ -74,6 +79,7 @@ div#menu a
    padding: 5px 35px 5px 5px;
 }
 
+/* Structure balise bloc*/
 div#bloc
 { 
    float: left;
@@ -82,6 +88,7 @@ div#bloc
    width: 80%;
 }
 
+/* Structure balise contact*/
 div#contact
 { 
    float: left;
@@ -96,6 +103,7 @@ div#bloc_contact
    padding: 0px 0px 0px 15px;
 }
 
+/* Structure balise pied*/
 div#pied
 { 
    margin: 0px 0px 0px 0px;
@@ -107,15 +115,20 @@ div#pied p
    padding: 0px 0px 0px 5px;
 }
 
+/* Structure hr*/
 hr
 {
    clear: both;
    margin: 0px 0px 0px 0px;
 }
+
+/* Structure p*/
 p
 {
    padding: 5px 5px 5px 5px;
 }
+
+/* Structure tableau*/
 table
 {
    width: 100%;
@@ -132,6 +145,8 @@ td
    margin: 0px 0px 0px 0px;
    padding: 5px 5px 5px 5px;
 }
+
+/* Structure textarea formulaire*/
 textarea 
 {  
    margin: 0px 5px 0px 0px;
@@ -140,6 +155,7 @@ textarea
 
 /* Décoration */
 
+/* Décoration body*/
 body 
 { 
    background-image: url(images/fond.jpg); 
@@ -148,16 +164,21 @@ body
    font-family: Arial;    
 }
 
+/* Décoration titre h1 h2 h3*/
 h1 { font-family: Arial; }
 h2 { font-family: Arial; }
 h3 { font-family: Arial; }
 
+/* Décoration balise titre h3*/
 div#entete h3 { font-family: Arial; }
 
+/* Décoration hr*/
 hr { border: 1px solid gray; /*visibility: visible;*/ }
 
+/* Décoration tableau*/
 table { border: 1px solid #3F3F3F; }
 
+/* Décoration balise menu - bloc_contact*/
 div#menu li { list-style-type: none; }
 div#menu li:hover { background-color: white; }
 div#bloc {  }
@@ -171,56 +192,29 @@ div#bloc_contact a:link, a:visited, a:hover { text-decoration: none; background-
 div#menu a:link, div#menu a:visited { text-decoration: none; font-family: Arial; font-size: 14px; color: white; font-style: normal; }
 div#menu a:hover { text-decoration: none; color: gray; background-color: transparent; }
 
+/* Décoration balise pied*/
 div#pied p { font-family: Arial; font-size: 10px; font-style: italic; text-align:right; }
 div#pied a { text-decoration: none; font-family: Arial; font-size: 10px; font-style: italic; color: white; }
 div#pied a:link, a:visited { text-decoration: none; font-family: Arial; font-size: 10px; font-style: italic; color: white; }
 div#pied a:hover { text-decoration: none; font-family: Arial; font-size: 10px; font-style: italic; color: white; background-color: transparent; }
 
+/* Décoration lien a*/
 a { text-decoration: underline; font-family: Arial; font-size: 12px; color: white; font-style: normal; }
 a:link, a:visited { text-decoration: underline; font-family: Arial; font-size: 12px; color: white; font-style: normal; }
 a:hover { text-decoration: none; background-color: gray; color: white; }
 
+/* Décoration tableau*/
 td { font-family: Arial; color: #000000; font-size: 15px; width: 20%; }
 td.center { text-align: center; }
 td.justify { text-align: justify; }
 tr { background-color: #AFAFAF; }
 
+/* Décoration formulaire*/
 input { font-family: Arial; font-size: 14px; font-weight: normal; background-color: #F5F5F5; color: #000000; border: 1px solid #3F3F3F; text-indent: 2px; }
 textarea {font-family: Arial; font-size: 12px; font-weight : normal; background-color: #F5F5F5; color: #000000; border: 1px solid #3F3F3F; text-indent: 2px; }
-select {font-family: Arial; font-size: 12px; font-weight : bold; background-color: #F5F5F5; border: 1px solid #3F3F3F; } 
+select {font-family: Arial; font-size: 12px; font-weight : bold; background-color: #F5F5F5; border: 1px solid #3F3F3F; }
 
+/* Décoration lien a*/
 a.backlink { text-decoration: underline; font-family: Arial; font-size: 10px; color: white; font-style: italic; }
 a.backlink:link, a.backlink:visited { text-decoration: underline; font-family: Arial; font-size: 10px; color: white; font-style: italic; }
 a.backlink:hover { text-decoration: none; background-color: transparent; font-size: 10px; color: #AEAEAE; font-style: italic; }
-
-/*
-
-nav
-{ 
-   float: left;
-   margin: 0px 0px 0px 0px;
-   padding: 0px 0px 0px 0px;
-   width: 10%;
-}
-nav ul
-{ 
-   width: 100%;
-}
-nav li 
-{
-   margin-left: -3em;
-   margin-right: 4em;
-   padding: 5px 0px 5px 0px;
-   border: 1px solid gray;
-}
-nav a 
-{ 
-   padding: 5px 35px 5px 5px;
-}
-*/
-
-/*
-footer p { font-family: Arial; font-size: 10px; font-style: italic; text-align:right; }
-footer a { text-decoration: none; font-family: Arial; font-size: 10px; font-style: italic; color: white; }
-footer a:link, a:visited { text-decoration: none; font-family: Arial; font-size: 10px; font-style: italic; color: white; }
-footer a:hover { text-decoration: none; font-family: Arial; font-size: 10px; font-style: italic; color: white; background-color: transparent; } */

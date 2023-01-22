@@ -2,17 +2,18 @@
 
 /* Structure */
 
-body 
+body /*structure body*/
 { 
    margin: 10px;
    padding: 0px;   
 }
-header
-{ 
-   height: auto;
-   color: gray;
+header /*structure header*/ 
+{
+    height: auto;
+    color: gray;
 }
-header img.logo
+
+header img.logo /*structure logo header*/
 { 
    float: left;
    margin: 0px 0px 10px 0px;
@@ -20,30 +21,32 @@ header img.logo
    /*position:absolute;
    z-index: -1;*/
 }
-header h1
+header h1 /*structure header titre h1*/
 {
    margin: 0px 0px 0px 0px;
 }
-header h2
+header h2 /*structure header titre h2*/
 {
    padding-left: 5px;
 }
-header h3
+header h3 /*structure header titre h2*/
 {
    margin: 0px 0px 0px 0px;
 }
-div#titre
+div#titre /*structure balise titre*/
 { 
    height: 52px;
    margin: 0px 0px 0px 0px;
    padding: 5px 0px 5px 0px;   
 }
-div#titre img.logo_titre
+div#titre img.logo_titre /*structure balise titre logo*/
 { 
    float: left;
    margin: 0px 0px 0px 0px;
    padding: 0px 0px 0px 0px;   
 }
+
+/*structure barre nav*/
 nav
 { 
    float: left;
@@ -66,6 +69,8 @@ nav a
 { 
    padding: 5px 35px 5px 5px;
 }
+
+/*structure article + contact et bloc contact*/
 article
 { 
    float: left;
@@ -85,6 +90,8 @@ div#bloc_contact
    margin: 10px 0px 10px 0px;
    padding: 0px 0px 0px 15px;
 }
+
+/*structure footer*/
 footer
 { 
    margin: 0px 0px 0px 0px;
@@ -95,15 +102,20 @@ footer p
    margin: 0px 0px 0px 0px;
    padding: 0px 0px 0px 5px;
 }
+/*structure hr*/
 hr
 {
    clear: both;
    margin: 0px 0px 0px 0px;
 }
+
+/*structure parapraphe*/
 p
 {
    padding: 5px 5px 5px 5px;
 }
+
+/*structure tableau*/
 table
 {
    width: 100%;
@@ -120,6 +132,8 @@ td
    margin: 0px 0px 0px 0px;
    padding: 5px 5px 5px 5px;
 }
+
+/*structure textarea formulaire*/
 textarea 
 {  
    margin: 0px 5px 0px 0px;
@@ -136,24 +150,30 @@ body
    font-family: Arial;  
 }
 
+/*decoration titre h1 h2 h3*/
 h1 { font-family: Arial; }
 h2 { font-family: Arial; }
 h3 { font-family: Arial; }
 
 header h3 { font-family: Arial; color: gray;}
 
+/*decoration hr*/
 hr { border: 1px solid gray; /*visibility: visible;*/ }
 
+/*decoration tableau*/
 table { border: 1px solid #3F3F3F; }
 
+/*decoration barre nav*/
 nav li { list-style-type: none; }
 nav li:hover { background-color: white; }
 nav a:link, nav a:visited { text-decoration: none; font-family: Arial; font-size: 14px; color: white; font-style: normal; }
 nav a:hover { text-decoration: none; color: gray; background-color: transparent; }
 
+/*decoration article*/
 article {  }
 article li { list-style-type: square; }
 
+/*decoration balise contact*/
 div#contact { border-left: 2px solid gray; }
 div#bloc_contact {  }
 div#bloc_contact table { margin: 0px; border: 0px; }
@@ -161,20 +181,25 @@ div#bloc_contact td { padding: 0px; text-align: center; }
 div#bloc_contact tr { background-color: transparent; }
 div#bloc_contact a:link, a:visited, a:hover { text-decoration: none; background-color: transparent; }
 
+
+/*decoration footer*/
 footer p { font-family: Arial; font-size: 10px; font-style: italic; text-align:right; }
 footer a { text-decoration: none; font-family: Arial; font-size: 10px; font-style: italic; color: white; }
 footer a:link, a:visited { text-decoration: none; font-family: Arial; font-size: 10px; font-style: italic; color: white; }
 footer a:hover { text-decoration: none; font-family: Arial; font-size: 10px; font-style: italic; color: white; background-color: transparent; }
 
+/*decoration lien a*/
 a { text-decoration: underline; font-family: Arial; font-size: 12px; color: white; font-style: normal; }
 a:link, a:visited { text-decoration: underline; font-family: Arial; font-size: 12px; color: white; font-style: normal; }
 a:hover { text-decoration: none; background-color: gray; color: white; }
 
+/*decoration tableau*/
 td { font-family: Arial; color: #000000; font-size: 15px; width: 20%; }
 td.center { text-align: center; }
 td.justify { text-align: justify; }
 tr { background-color: #AFAFAF; }
 
+/*decoration formulaire*/
 input { font-family: Arial; font-size: 14px; font-weight: normal; background-color: #F5F5F5; color: #000000; border: 1px solid #3F3F3F; text-indent: 2px; }
 textarea {font-family: Arial; font-size: 12px; font-weight : normal; background-color: #F5F5F5; color: #000000; border: 1px solid #3F3F3F; text-indent: 2px; }
 select {font-family: Arial; font-size: 12px; font-weight : bold; background-color: #F5F5F5; border: 1px solid #3F3F3F; } 
@@ -183,6 +208,8 @@ a.backlink { text-decoration: underline; font-family: Arial; font-size: 10px; co
 a.backlink:link, a.backlink:visited { text-decoration: underline; font-family: Arial; font-size: 10px; color: white; font-style: italic; }
 a.backlink:hover { text-decoration: none; background-color: transparent; font-size: 10px; color: #AEAEAE; font-style: italic; }
 
+
+/*decoration balise pied*/
 div#pied p {
     font-family: Arial;
     font-size: 10px;

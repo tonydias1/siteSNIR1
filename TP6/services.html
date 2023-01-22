@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet_todo.css"> 
+	<title>SFCV - Spécialiste Français n°1 des Caves à Vin | Services</title>
+</head>
+<body>
+	<header>
+		<div id="entete">
+			<!-- logo du site -->
+			<p class="logo"><img src="images/logo.png" alt="Logo"></p>
+			<h1>SFCV</h1><!-- titre et nom du site -->
+			<h3>N°1 des Caves à Vins</h3><!-- titre et nom du site -->
+		</div>
+	</header>
+
+	<script>
+		function backgroundImage() {
+			document.body.style.backgroundImage = "url('images/fond2.jpg')";
+			document.body.style.color = "white";
+		}
+	</script>
+
+	<hr>
+
+	<div id="menu">
+		<nav>
+			<!-- bar de navigation du site -->
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="produits.html">Produits</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><button type="button" onclick="backgroundImage()">Changez le fond de la page</button></li>
+			</ul>
+		</nav>
+	</div>
+
+
+	<section>
+		<!-- Bloc principale du site -->
+		<div id="bloc">
+			<h2>Nos tarifs</h2>
+
+			<!-- Liste des modèles et des tarifs -->
+			<table>
+				<tr>
+					<th class="th_services">Modèle</th>
+					<th class="th_services">Tarifs</th>
+				</tr>
+				<tr>
+					<td>AV 175</td>
+					<td>Veuillez nous contactez.</td>
+				</tr>
+				<tr>
+					<td>AV 205</td>
+					<td>Veuillez nous contactez.</td>
+				</tr>
+				<tr>
+					<td>CV 183</td>
+					<td>Veuillez nous contactez.</td>
+				</tr>
+			</table>
+
+
+			<!-- Catalogue -->
+			<h2>Notre catalogue</h2>
+
+			<embed src="catalogue.pdf" width="800" height="500" type="application/pdf">
+
+			<!-- Vidéo de présentation -->
+			<h2>Visitez la cave de Michel Rostang</h2>
+
+			<video width="500" height="340" controls>
+				<source src="images/visite.mp4" type=video/mp4>
+			</video>
+		</div>
+	</section>
+
+	<hr>
+
+	<!-- Pied du site -->
+	<div id="pied">
+		<footer>
+			<p>@ SFCV - <a href="mentions.html">Mentions légales</a></p>
+			<p>L'abus d'alcool est dangereux pour la santé. A boire avec modération.</p>
+		</footer>
+	</div>
+</body>
+</html>

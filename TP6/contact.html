@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet_todo.css">
+	<title>SFCV - Spécialiste Français n°1 des Caves à Vin | Contact</title>
+</head>
+<body>
+	<header>
+		<div id="entete">
+			<!-- logo du site -->
+			<p id="logo"><img src="images/logo.png" alt="Logo"></p>
+			<h1>SFCV</h1><!-- titre et nom du site -->
+			<h3>N°1 des Caves à Vins</h3><!-- deuxieme titre du site -->
+		</div>
+	</header>
+
+	<script>
+		function backgroundImage() {
+			document.body.style.backgroundImage = "url('images/fond2.jpg')";
+			document.body.style.color = "white";
+		}
+	</script>
+
+	<hr>
+
+	<div id="menu">
+		<nav>
+			<!-- bar de navigation du site -->
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="produits.html">Produits</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><button type="button" onclick="backgroundImage()">Changez le fond de la page</button></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div id="bloc_contact">
+		<!-- Corps du site -->
+		<h3>Demande de catalogue</h3>
+
+		<p>Demandez-nous vite un catalogue gratuit !</p>
+		<p>Il vous sera livré dans les meilleurs délais.</p>
+
+		<form method="get" action="mailto:toutabene@gmail.com">
+			<!-- Formulaire permettant d'envoyer un mail -->
+
+			<label for="civilite">Civilité :</label>
+			<select name="civilite" id="civilite" required>
+				<option value="">--Choisissez votre civilité--</option>
+				<option value="Monsieur">Monsieur</option>
+				<option value="Madame">Madame</option>
+				<option value="Mademoiselle">Mademoiselle</option>
+			</select><br>
+
+			<label for="prenom">Prénom :</label> <input type="text" name="prenom" id="prenom" placeholder="Ex. : Jake" required><br>
+
+			<label for="nom">Nom :</label> <input type="text" name="nom" id="nom" placeholder="Ex. : Mehoff" required><br>
+
+			<label for="adresse">Adresse :</label> <input type="text" name="adresse" id="adresse" placeholder="" required><br>
+
+			<label for="ville">Ville :</label> <input type="text" name="ville" id="ville" placeholder="" required>
+
+			<label for="codepostale">Code postale :</label> <input type="text" name="codepostale" id="codepostale" placeholder="" required><br>
+
+			<label for="newsletter">Je souhaite recevoir la newsletter :</label> <input type="checkbox" name="courriel" id="newsletter" required>
+
+			<label for="courriel">Courriel :</label> <input type="text" name="courriel" id="courriel" placeholder="" required><br>
+
+			<input type="submit" name="envoyer">
+		</form>
+	</div>
+
+	<hr>
+
+	<!-- Pied du site -->
+	<div id="pied">
+		<footer>
+			<p>@ SFCV - <a href="mentions.html">Mentions légales</a></p>
+			<p>L'abus d'alcool est dangereux pour la santé. A boire avec modération.</p>
+		</footer>
+	</div>
+</body>
+</html>
